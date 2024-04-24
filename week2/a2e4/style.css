@@ -1,0 +1,16 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+تأكد ان الرابط سيظهر في منتصف الصفحة تماما
+قم بعمل نفس الألوان وكل شيء ليظهر الشكل كما في المثال */
+
+
+a {
+    color: white;
+    background-color: #009688;
+    text-transform: capitalize;
+    padding: 20px;
+    border-bottom: 10px solid #00514A;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+بواسطة ال CSS قم بعمل الشكل التالي وتأكد أن الحروف تظهر كما في الصورة */
+
+
+.one {
+    text-align: center;
+    text-transform:uppercase;
+}
+.two {
+    text-align: center;
+    text-transform:capitalize;
+}
+.three {
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+قم بعمل الشكل التالي كما هو
+تأكد أن أي تغيير في ال Padding أو ال Border للعنصر الأب ( Div ) يحدث لنفس العنصر الإبن ( P ) بدون التعديل عليه
+الشكل بالأسفل للتوضيح لو قمنا بتغيير الألوان كيف سيكون الشكل */
+
+
+div {
+    display: inline-block;
+    font-size:x-large;
+    background-color: #eee;
+    padding: 10px;
+    border: 3px solid orange;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 40px;
+    outline: 3px solid orange;
+    outline-offset: 20px;
+}

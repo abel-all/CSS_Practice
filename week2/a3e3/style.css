@@ -1,0 +1,26 @@
+/* حجم الخط في ال Root Element هو 20px
+قم بإستخدام ال Root Time ( Rem ) في الثلاث عناصر التالية لتخرج بالمقاسات المطلوبة
+مطلوب في العنصر الأول أن يكون حجم الخط 50px بال Rem
+مطلوب في العنصر الثاني أن يكون حجم الخط 40px بال Rem
+مطلوب في العنصر الثالث أن يكون حجم الخط 30px بال Rem */
+
+
+.element-1,
+.element-2,
+.element-3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.element-1 {
+    /* font-family: "Open Sans", sans-serif; */
+    font-size: 3.125rem;
+}
+.element-2 {
+    /* font-family: "Cairo", sans-serif; */
+    font-size: 2.5rem;
+}
+.element-3 {
+    /* font-family: "Jomhuria", serif; */
+    font-size: 1.875rem;
+}

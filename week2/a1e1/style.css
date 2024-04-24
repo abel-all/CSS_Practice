@@ -1,0 +1,23 @@
+/* شاهد البنية السابقة في المثال ولا تقم بالتعديل عليها
+قم بتلوين كلمة Title باللون الأحمر
+قم بتلوين جملة Child Title باللون الأزرق
+قم بتلوين جملة Paragraph Content باللون الأخضر
+قم بتلوين جملة Section Title باللون الأخضر
+قم بجمع الألوان المتشابهه مع بعضها */
+
+.parent .child span {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+/* p {
+    color: green;
+} */
+
+.title,
+p {
+    color: green;
+}

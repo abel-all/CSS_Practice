@@ -1,0 +1,29 @@
+/* في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم */
+
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid dont begin by number */
+.1user-name {
+}
+
+/* not valid dont begin by @ */
+.@user-name {
+}
+
+/* not valid dont contain @ */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}

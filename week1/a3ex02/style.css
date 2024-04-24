@@ -1,0 +1,28 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+عرض العناصر هو 400px
+العنصر الثاني قم بإخفائه مع الحفاظ على مكانه في مساحة العمل
+قم بعمل الشكل كما في الصورة بنفس الألوان */
+
+.element {
+    background-color: rgb(212, 212, 212);
+    display: block;
+    padding: 20px;
+    width: 400px;
+}
+
+.element-1 {
+    border-left: 5px solid red;
+}
+.element-1 spam {
+    border-left: 5px solid red;
+}
+
+.element-2 {
+    border-left: 5px solid red;
+    visibility: hidden;
+}
+
+.element-3 {
+    border-left: 5px solid green;
+}
+

@@ -1,0 +1,21 @@
+/* في أسماء ال Identifiers التالية حدد ما الذي يتبع ال Best Practice عن طريق كتابة Good أو Bad في التعليق قبل الإسم */
+
+/* bad (upper camel case)*/
+.USERNAME {
+}
+
+/* bad (upper case)*/
+.UserName {
+}
+
+/* best (kebab case)*/
+.user-name {
+}
+
+/* bad (camel case)*/
+.userName {
+}
+
+/* bad (normal text)*/
+.usernameprofile {
+}

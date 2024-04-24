@@ -1,0 +1,17 @@
+/* قم بعمل الشكل الموجود في الصورة كما هو بنفس الألوان
+يجب عدم تغيير ال Display الخاص بالعنصر ويظل نوعه Block كما هو
+يجب أن لا يزيد عرض العنصر عن 400px
+في آخر عنصر سوف تجد الكلمات خرجت من الصندوق وهي الآن ظاهرة, المطلوب إخفاء أي شيء يخرج من الصندوق */
+
+div {
+    color: white;
+    background-color: brown;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.element {
+    /* max-width: 40px; */
+    max-height: 40px;
+}

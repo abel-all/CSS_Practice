@@ -1,0 +1,9 @@
+/* قم بعمل نفس الشكل التالي
+يجب عليك عمل نفس الألوان */
+
+div {
+    font-size: 100px;
+    /* text-shadow: 4px 4px blue; */
+    text-shadow: 2px 2px red, 4px 4px blue, 6px 6px violet;
+    /* multiple shadow in same property */
+}

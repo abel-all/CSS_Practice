@@ -1,0 +1,33 @@
+/* إستخدم البنية السابقة لعمل المطلوب
+ال Div عرضه هو 500px
+قم بتوسيط ال Div داخل الصفحة بطريقة عرضية
+قم بعمل هوامش داخلية قدرها 20px
+قم بعمل خلفية لل Div لونها blueviolet
+قم بتكرار السطر الخاص بالألوان بكل الطرق التالية [ RGB | HSL | Hex ]
+قم بعمل Div آخر تحته بنفس الخلفية ولكن نسبة الشفافية Alpha Channel تكون النصف
+قم بعمل Div آخر تحته بنفس الخلفية ولكن نسبة الشفافية Alpha Channel تكون 1 من 10 */
+
+.assign-1-shape-1,
+.assign-1-shape-2,
+.assign-1-shape-3 {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    outline: 10px solid white;
+}
+
+.assign-1-shape-1 {
+    background-color: blueviolet;
+    background-color: #8A2BE2;
+    background-color: rgb(138, 43, 226);
+    background-color: hsl(271, 76%, 53%);
+
+}
+
+.assign-1-shape-2 {
+    background-color: rgb(138 43 226 / .5);
+}
+
+.assign-1-shape-3 {
+    background-color: rgb(138 43 226 / .1);
+}
