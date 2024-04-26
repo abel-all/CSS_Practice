@@ -1,0 +1,84 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل نفس الشكل
+عنصر ال div الرئيسي عرضه 400px
+قم بتوسيط عنصر ال div عرضيا في الشاشة
+تأكد أنك تستعمل نفس الالوان في جميع العناصر سواء كانت Background او Border أو أي شيء آخر */
+
+div {
+    padding: 40px;
+    width: 400px;
+    background-color: #eee;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-top: 3px solid #F44335;
+    border-bottom: 3px solid #F44335;
+    border-left: 3px solid #1F96F3;
+    border-right: 3px solid #1F96F3;
+    margin: 50px;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+div .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1F96F3;
+    border-right: 3px solid #F44335;
+    padding: 10px;
+    margin: -20px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1F96F3;
+    border-right: 3px solid #F44335;
+    padding: 10px;
+    margin: -20px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1F96F3;
+    border-left: 3px solid #F44335;
+    padding: 10px;
+    margin: -20px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1F96F3;
+    border-left: 3px solid #F44335;
+    padding: 10px;
+    margin: -20px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

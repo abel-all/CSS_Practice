@@ -1,0 +1,21 @@
+/* إستخدم البنية السابقة والتنسيقات الخاصة بها لعمل نفس الشكل
+خلفية جميع العناصر هي نفس خلفية العنصر الأول ولكن مع إختلاف الشفافية
+نسبة شفافية العنصرين الأخيرين هي 0.1 ولكن كيف تظهر الشكل كما في الصورة */
+
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #B3B3B3; /* Get The Background From Image */
+    color: black;
+}
+
+.two {
+    opacity: calc(0.1);
+}
+ .one {
+    background-color: rgb(179 179 179 / 0.1);
+ }

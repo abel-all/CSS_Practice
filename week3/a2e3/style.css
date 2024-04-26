@@ -1,0 +1,92 @@
+/* إستخدم البنية السابقة وقم بإضافة Classes أو Attributes كما تريد للوصول للشكل المطلوب
+عنصر ال ul الرئيسي عرضه 400px
+قم بتوسيط عنصر ال ul عرضيا في الشاشة
+تأكد أنك تستعمل نفس الالوان في جميع العناصر */
+
+
+ul {
+    width: 400px;
+}
+
+ul .list-one {
+    background-color: #eee;
+    padding: 10px;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul .list-one ol {
+    list-style-type:decimal-leading-zero;
+}
+ .s {
+    padding: 10px;
+    background: white;
+    margin: 10px;
+}
+.p {
+     padding: 10px;
+     background: white;
+     margin: 10px;
+    }
+    .h {
+     padding: 10px;
+     background: white;
+    margin: 10px;
+ }
+ 
+ ul .list-two {
+     background-color: #eee;
+     padding: 10px;
+     list-style-type: none;
+     margin: 20px;
+}
+    
+ul .list-two ol {
+    list-style-type: upper-roman;
+}
+.r-s {
+    padding: 10px;
+    background: white;
+    margin: 10px;
+}
+.r-l {
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    }
+.r-p {
+    padding: 10px;
+    background: white;
+    margin: 10px;
+ }
+
+
+ul .list-three {
+    background-color: #eee;
+    padding: 10px;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul .list-three ul {
+    list-style: inside;
+}
+
+.u-v {
+    list-style-type: circle;
+    width: 310px;
+    background: white;
+    padding: 10px;
+    position: relative;
+    left: -40px;
+    margin: 10px;
+}
+.u-s {
+    list-style-type: circle;
+    width: 310px;
+    background: white;
+    padding: 10px;
+    position: relative;
+    left: -40px;
+    margin: 10px;
+}

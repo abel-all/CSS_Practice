@@ -1,0 +1,79 @@
+/* قم بعمل الشكل التالي مع مراعاة المعلومات التالية
+العنصر الأب الذي يحتوي على جميع العناصر الداخلية عرضه 800px
+العنصر الأب لا يوجد فيه Padding
+المسافات بين العناصر الداخلية من اليمين واليسار ( Gap ) قدرها 15px
+المسافات بين العناصر الداخلية من الأسفل والأعلى قدرها 15px
+يجب ألا تحسب عرض العنصر بنفسك ويجب أن يكون Dynamic لأننا سنقوم بتغيير عرض العنصر الأب
+قم بتغيير عرض العنصر الأب إلى 1000px وتأكد أنه لم يخرب أي شيء */
+
+.parent {
+    background-color: #ccc;
+    width: 100%
+}
+
+.parent .e-1 {
+    background-color: rosybrown;
+    text-align: center;
+    display: inline-block;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.parent .e-2 {
+    /* background-color: rosybrown; */
+    /* text-align: center; */
+    /* display: inline; */
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.parent .e-2 div {
+    background-color: rosybrown;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    width: calc((100% - 30px) / 3);
+    margin-right: 10px;
+
+}
+
+.last-elm {
+    margin-right: 0 !important;
+}
+
+.parent .e-3 {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.parent .e-4 {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.parent .e-3 div {
+    background-color: rosybrown;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    width: calc((100% - 15px) / 2);
+    /* width: 377.5px; */
+    /* margin-left: 15px;
+    margin-top: 15px; */
+    margin-right: 10px;
+
+}
+.parent .e-4 div {
+    background-color: rosybrown;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    width: calc((100% - 45px) / 4);
+    /* width: 181.25px; */
+    /* margin-left: 15px;
+    margin-top: 15px; */
+    margin-right: 10px;
+
+}
