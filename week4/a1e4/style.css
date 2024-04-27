@@ -1,0 +1,22 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل نفس الشكل
+تأكد أنك تستعمل نفس الألوان الموجودة في الشكل */
+
+
+p {
+    background-color: #eee;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    left: 30px;
+}
+
+p::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+    padding: 20px;
+}

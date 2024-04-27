@@ -1,0 +1,25 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل نفس الشكل
+تأكد أنك تستعمل نفس الألوان الموجودة في الشكل
+تأكد ان ال div موسط في الصفحة */
+
+div {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #eee;
+    /* display: inline-block; */
+    padding: 20px;
+}
+
+div::first-letter {
+    /* display: inline-block; */
+    background-color: red;
+    /* padding: 10px; */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100px;
+}
+
+/* i don't know */

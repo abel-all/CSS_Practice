@@ -1,0 +1,20 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل نفس الشكل
+تأكد أنك تستعمل نفس الألوان الموجودة في الشكل
+تأكد ان جميع ال divs موسطة في الصفحة بطريقة عرضية
+عرض ال div هو 300px وطوله هو 60px */
+
+div {
+    width: 300px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin-top: 40px;
+}
+
+:empty {
+    background-color: red;
+}
