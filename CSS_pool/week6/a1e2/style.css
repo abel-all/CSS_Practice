@@ -1,0 +1,60 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+قم بعمل الشكل بنفس الالوان
+إستخدم ال Grid لعمل الشكل الأساسي
+يجب كتابة الكلمات الموجودة داخل العنصر بواسطة ال CSS
+يجب عليك أن تملا الصفحة بالتصميم ليكون Full Screen */
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.layout {
+    background-color: #eee;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "head head head head" 
+        "sec sec sec side" "foot foot foot foot";
+}
+
+.layout header {
+    background-color: blue;
+    grid-area: head;
+}
+.layout header::before {
+    content: "Header";
+    color: white;
+    font-size: 3em;
+}
+.layout section {
+    background-color: orangered;
+    grid-area: sec;
+}
+.layout section::before {
+    content: "Section";
+    color: white;
+    font-size: 3em;
+}
+.layout aside {
+    background-color: gray;
+    grid-area: side;
+}
+.layout aside::before {
+    content: "Aside";
+    color: white;
+    font-size: 3em;
+}
+.layout footer {
+    background-color: green;
+    grid-area: foot;
+}
+.layout footer::before {
+    content: "Footer";
+    color: white;
+    font-size: 3em;
+}

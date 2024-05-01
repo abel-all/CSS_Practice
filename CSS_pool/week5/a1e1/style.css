@@ -1,0 +1,21 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+عرض العنصر وطوله هو 100px
+قم بتوسيط العنصر في الصفحة بطريقة عرضية
+قم بتوسيط كلمة Elzero داخل العنصر طوليات وعرضيا بواسطة خواص ال Flex
+قم بعمل الشكل بنفس الالوان */
+
+
+
+div {
+    width: 100px;
+    height: 60px;
+    background-color: #eee;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    font-weight: 600;
+    color: orangered;
+    border-right: 6px solid red;
+    border-left: 6px solid blue;
+    border-radius: 10px;
+}

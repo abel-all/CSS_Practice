@@ -1,0 +1,25 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+تنسيقات ال CSS لتوضيح أبعاد العنصر الأب
+قم بتوسيط العنصر في الصفحة بطريقة عرضية
+قم بعمل الشكل بنفس الالوان
+إستخدم ال Grid لعمل الشكل الأساسي */
+
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: grid;
+    gap: 20px 20px;
+    font-size: 2em;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+}
+
+.grid div{
+    background-color: #403F3F;
+}

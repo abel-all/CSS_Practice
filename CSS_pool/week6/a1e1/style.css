@@ -1,0 +1,26 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+تنسيقات ال CSS لتوضيح أبعاد العنصر الأب
+قم بتوسيط العنصر في الصفحة بطريقة عرضية
+قم بعمل الشكل بنفس الالوان
+إستخدم ال Grid لعمل الشكل الأساسي
+يمكنك توسيط النص داخل العنصر باي طريقة تعجبك
+يجب كتابة الكلمات الموجودة داخل العنصر بواسطة ال CSS */
+
+
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto;
+  }
+
+.grid div {
+    background-color: #607D8B;
+}

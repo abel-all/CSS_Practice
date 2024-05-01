@@ -1,0 +1,24 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+عرض العنصر parent هو 600px والطول هو 300px
+قم بتوسيط العنصر parent في الصفحة بطريقة عرضية
+قم بعمل نفس العناصر بنفس شكلها وأماكنها */
+
+
+.parent {
+    background-color: #eee;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.parent div {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+

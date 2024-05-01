@@ -1,0 +1,54 @@
+/* قم بعمل الشكل المطلوب التالي بواسطة ال CSS Grid والشكل عبارة عن عرض لأعضاء الفريق ومعلومات عنهم
+المطلوب
+عمل نفس الشكل مع إمكانية وضع أي بيانات تريدها
+يجب عليك عمل نفس الالوان
+التحديات
+يجب عليك إستخدام ال CSS Grid فقط في توزيع العناصر
+يجب عدم إستخدام ال Margin نهائيا بين العناصر
+يجب عدم إستخدام خواص العرض والطول نهائيا [ Width, Height, Flex-Basis ] */
+
+
+.grid {
+    background-color: #eee;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 5px 5px;
+}
+
+.grid div {
+    background-color: white;
+    text-align: center;
+    font-size: 5em;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    color: black;
+}
+
+.box-1 {
+    grid-column: span 2;
+}
+.box-3 {
+    grid-row: span 3;
+    background-color: black !important;
+    color: white !important;
+}
+
+.box-4 {
+    grid-row: span 2;
+}
+
+.box-5 {
+    grid-column: span 2;
+    background-color: black !important;
+    color: white !important;
+}
+.box-8 {
+    background-color: black !important;
+    color: white !important;
+}
+.box-6 {
+    grid-column: span 2;
+}
+

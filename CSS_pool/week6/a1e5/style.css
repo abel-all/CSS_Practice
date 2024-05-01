@@ -1,0 +1,27 @@
+/* إستخدم البنية السابقة بدون التعديل عليها لعمل الشكل المطلوب
+عرض العنصر وطوله هو 100px
+قم بتوسيط العنصر في الصفحة بطريقة عرضية
+قم بتوسيط كلمة Elzero داخل العنصر طوليات وعرضيا بواسطة خواص ال Flex
+قم بعمل الشكل بنفس الالوان */
+
+
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 30px 30px;
+    align-content: space-between;
+    column-gap: 20px;
+}
+
+.grid div {
+    text-align: center;
+    font-size: 2em;
+    background-color: #E91E63;
+    color: white;
+}
